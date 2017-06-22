@@ -1,0 +1,111 @@
+#top-nav{
+        width: 100%;
+        height: 65px;
+        background: black;
+}
+
+#top-nav p{
+    color: blue;
+    font-size: 1.5em;
+}
+
+#top-nav span{
+    color:red;
+}
+
+#top-nav p, #top-nav nav{
+           line-height: 65px;
+}
+
+#top-nav nav a{
+      color:white;
+      font-size: 1.25em;
+      transition: linear .5s;
+      padding-right: 15px;
+}
+
+#top-nav nav a:hover{
+      color:red;
+      text-decoration: none
+}
+
+#site-title{
+     text-align: center;
+     background: gold;
+     padding: 25px 0px;
+     margin-top: 0px;
+    
+}
+
+#three-images{
+      margin: 40px 0px 50px 0px;
+}
+
+#three-images img{
+    width: 100%;
+    border: 3px solid #555;
+    box-shadow: 2px 8px 20px #343434;
+}
+
+.headings{
+      color:blue;
+}
+
+#para-one{
+    text-align: justify;
+    color: red;
+}
+
+#para-two{
+    text-align: center;
+    color:red;
+}
+
+#para-three{
+    text-align: right;
+    color:red;
+}
+
+.btn-basic{
+   box-shadow: 3px 10px 50px black;
+    width:100px;
+    height:40px;
+    float: right;
+}
+
+form{
+    text-align-last: center;
+}
+
+#light-grey{
+     width: 100%;
+     background: #ccc;
+}
+
+hr{
+    border-top: 3px dotted #aaa;
+}
+
+small{
+   margin: 34%;
+}
+
+iframe{
+     margin: 25px 0px 20px 0px;
+     box-shadow: 3px 5px 5px 5px #343434;
+     border: 4px solid pink;
+}
+
+footer{
+     width:100%;
+     height: 50px;
+     margin: 0px;
+     background: black;
+}
+
+footer p{
+      line-height: 50px;
+      margin: 0px;
+      color:white;
+      text-align: center;
+}
